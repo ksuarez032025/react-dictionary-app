@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          Search <br />& Define
+          Search <br />
+          &Define
         </header>
         <main>
           <Dictionary />
