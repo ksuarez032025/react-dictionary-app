@@ -1,5 +1,13 @@
-h2 {
+.word {
+  color: #1a3c40;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.5;
+}
+
+.phonetic {
+  color: #144d53;
+  font-size: 20px;
+  opacity: 0.5;
+  font-weight: bold;
 }

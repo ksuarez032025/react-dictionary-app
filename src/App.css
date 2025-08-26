@@ -3,21 +3,28 @@ body {
 }
 
 .container {
-  max-width: 800px;
-  margin: 60px auto;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 16px;
 }
 
 .App-header {
-  font-family: "Give You Glory", cursive;
   text-align: center;
-  line-height: 1;
+  position: relative;
+  padding: 48px 0 16px;
 }
 
-h1 {
-  font-size: 64px;
+.title {
+  color: #1a3c40;
+  font-family: "Give You Glory", cursive;
+  font-size: 68px;
+  position: relative;
 }
 
 .wordSearchImg {
-  max-width: 200px;
-  text-align: center;
+  position: absolute;
+  inset: 0;
+  background: url("./images/word_search_img.png") center/contain no-repeat;
+  opacity: 0.09;
+  pointer-events: none;
 }

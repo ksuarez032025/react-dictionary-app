@@ -6,15 +6,18 @@
   margin: 20px 0;
 }
 
+.Dictionary .search_title {
+  color: #1a3c40;
+  font-size: clamp(20px, 1.2vw + 16px, 28px);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 15px;
+}
+
 .Dictionary input {
   width: 100%;
   border-radius: 6px;
   padding: 6px 4px;
   border: 1px solid #ddd;
   color: #333;
-}
-
-.Dictionary .hint {
-  font-size: 11px;
-  margin-top: 5px;
 }
