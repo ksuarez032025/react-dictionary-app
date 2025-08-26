@@ -46,7 +46,7 @@ export default function Dictionary() {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
+        <section className="search-card">
           <h2 className="search_title">What word do you want to look up?</h2>
           <form onSubmit={handleSubmit}>
             <input
@@ -63,7 +63,7 @@ export default function Dictionary() {
           <section className="photos">
             {photos.map((p) => (
               <a key={p.id} href={p.url} target="blank" rel="noreferrer">
-                <img src={p.src.medium} alt={p.alt || keyword} />
+                <img src={p.src.medium} alt={p.alt || keyword} loading="lazy" />
               </a>
             ))}
           </section>
