@@ -1,8 +1,8 @@
 .Meaning h4 {
   color: #1a3c40;
   font-size: 24px;
+  font-weight: 600;
   line-height: 1.5;
-  font-weight: bold;
 }
 
 .Meaning .example {
