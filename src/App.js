@@ -15,15 +15,24 @@ function App() {
         <footer className="footer">
           <p>
             Coded by{" "}
-            <a href="https://www.linkedin.com/in/kristian-suarez-dev/">
+            <a
+              href="https://www.linkedin.com/in/kristian-suarez-dev/"
+              target="blank"
+            >
               Kristian Suarez
             </a>
             <br />
-            <a href="https://github.com/ksuarez032025/react-dictionary-app">
+            <a
+              href="https://github.com/ksuarez032025/react-dictionary-app"
+              target="blank"
+            >
               Open-source on GitHub
             </a>{" "}
             &{" "}
-            <a href="https://dictionary-shecodes-reactproject.netlify.app/">
+            <a
+              href="https://dictionary-shecodes-reactproject.netlify.app/"
+              target="blank"
+            >
               Hosted on Netlify
             </a>
           </p>
